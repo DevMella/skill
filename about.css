@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inconsolata', monospace;
+}
+.all{
+    overflow: hidden;
+}
+.log li {
+    list-style-type: none;
+}
+.btn-12,
+.btn-12 *,
+.btn-12 :after,
+.btn-12 :before,
+.btn-12:after,
+.btn-12:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+.btn-12 {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: button;
+  background-color: #000;
+  background-image: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 100%;
+  font-weight: 900;
+  line-height: 1.5;
+  margin: 0;
+  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+  padding: 0;
+  text-transform: uppercase;
+}
+.btn-12:disabled {
+  cursor: default;
+}
+.btn-12:-moz-focusring {
+  outline: auto;
+}
+.btn-12 svg {
+  display: block;
+  vertical-align: middle;
+}
+.btn-12 [hidden] {
+  display: none;
+}
+.btn-12 {
+  border-radius: 99rem;
+  border-width: 2px;
+  overflow: hidden;
+  padding: 0.3rem 2rem;
+  position: relative;
+}
+.btn-12 span {
+  mix-blend-mode: difference;
+}
+.btn-12:after,
+.btn-12:before {
+  background: linear-gradient(
+    90deg,
+    #fff 25%,
+    transparent 0,
+    transparent 50%,
+    #fff 0,
+    #fff 75%,
+    transparent 0
+  );
+  content: "";
+  inset: 0;
+  position: absolute;
+  transform: translateY(var(--progress, 100%));
+  transition: transform 0.2s ease;
+}
+.btn-12:after {
+  --progress: -100%;
+  background: linear-gradient(
+    90deg,
+    transparent 0,
+    transparent 25%,
+    #fff 0,
+    #fff 50%,
+    transparent 0,
+    transparent 75%,
+    #fff 0
+  );
+  z-index: -1;
+}
+.btn-12:hover:after,
+.btn-12:hover:before {
+  --progress: 0;
+}
+.navbar{
+    padding: 10px 30px 10px 30px;
+    background-color: white;
+    width: 100%;
+    font-family: 'Inconsolata', monospace;
+    backdrop-filter: 20% !important;
+    position: fixed;
+    z-index: 100;
+}
+.nav-item a{
+    font-size: 18px;
+    font-weight: 800;
+}
+.navbar-nav{
+    gap: 30px;
+}
+.navbar-brand{
+    font-weight: 800;
+}
+.one{
+    width: 100%;
+    padding: 150px 40px 0px 48px;
+}
+.one h2{
+    font-weight: 900;
+    font-size: 60px;
+    padding: 130px 0px 20px 0px;
+}
+.btn {
+    background-color: black;
+    padding: 10px 10px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;            
+    border-radius: 10px;
+    border: 2px dashed black;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .4s;
+   }
+   .btn span:last-child {
+    display: none;
+   }
+   .btn:hover {
+    transition: .4s;
+    border: 2px dashed black;
+    background-color: #fff;
+    color: black;
+   }
+   .btn:active {
+    background-color: black;
+   }
+   .ban {
+    padding-left: 160px;
+   }
+  .two{
+    width: 100%;
+    padding: 70px 40px 0px 48px;
+  } 
+  .two h2{
+    text-align: center;
+    font-weight: 900;
+    font-size: 40px;
+ }
+  .new{
+    padding-top: 200px;
+  }
+  .new .alo{
+    word-spacing: 2px;
+    line-height: 28px;
+  }
+  .new h5{
+    word-spacing: 2px;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .iman img{
+    height: 550px;
+    width: 400px;
+    border-radius: 20px;
+    object-fit: cover;
+  }
+  .iman{
+    padding-top: 40px;
+    padding-left: 210px;
+  }
+  .three{
+    width: 100%;
+    padding: 100px 40px 0px 48px;
+  } 
+  .three h2{
+    font-weight: 800;
+    margin-bottom: 20px;
+  }
+  .bon img{
+    padding-left: 100px;
+  }
+  .three h6{
+    line-height: 30px;
+  }
+  .four{
+    width: 100%;
+    padding: 100px 40px 0px 48px;
+  } 
+  .four h2,.five h2,.six h2{
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .byy img{
+    width: 50px;
+    margin-bottom: 30px;
+  }
+  .byy h5 span{
+    font-weight: 800;
+  }
+  .five{
+    width: 100%;
+    padding: 100px 40px 0px 48px;
+  } 
+  .cam{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+  }
+.mon h6{
+    line-height: 27px;
+}
+.six{
+    width: 100%;
+    padding: 100px 40px 0px 48px;
+  }
+  .rat{
+    text-align: center;
+  }
+  button span a{
+    color: white;
+    text-decoration: none;
+  }
+  
+footer {
+    width: 100%;
+    padding: 30px 50px 30px 40px;
+    margin-top: 30px;
+    font-family: 'Inconsolata', monospace;
+    background-color: black;
+    color: white;
+  }
+  .nam h4{
+    font-weight: 800;
+  }
+  .shey h6,.sat h6{
+    font-weight: 800;
+  }
+  .sat{
+    padding: 0px 0px 0px 120px;
+  }
+  .att{
+    background-color: white;
+    border: none;
+    width: 90% !important;
+    height: 40px;
+    font-family: 'Inconsolata', monospace;
+    font-size: 15px;
+    font-weight: 600;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  ::placeholder{
+    padding: 10px;
+  }
+  .homes{
+    height: 40px;
+    background-color:rgb(51, 50, 50);
+    width: 19%;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Inconsolata', monospace;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .alr h6{
+    font-weight: 800;
+  }
+  @media (max-width:720px) {
+    .navbar{
+        padding: 10px 0px 10px 0px;
+        position: fixed;
+    }
+    .new {
+        padding-top: 20px;
+    }
+    .one{
+      padding: 0px 0px 0px 15px;
+    }
+    .one h2,.two h2{
+        font-size: 40px;
+    }
+    .btn{
+        width: 96%;
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    .two{
+        padding: 60px 10px 0px 15px;
+    }
+    .two h2,.four h2,.five h2,.six h2{
+        text-align: left;
+    }
+    .ban {
+        padding-left: 0px;
+       }
+    .iman{
+        padding-top: 20px;
+        padding-left: 0px;
+      }
+      .iman img,.ban img{
+        width: 330px;
+      }
+      .three{
+        padding: 80px 10px 0px 15px;
+    }
+    .bon img{
+        padding-left: 0px;
+        width: 370px;
+      }
+      .four{
+        padding: 80px 10px 0px 15px;
+    }
+    .six a .btn{
+      width: 98%;
+    }
+    .five{
+        padding: 80px 10px 0px 15px;
+    }
+    .cam{
+        grid-template-columns: 1fr ;
+        gap: 50px;
+      }
+      .six{
+        padding: 80px 10px 0px 15px;
+    }
+      .rat{
+        text-align: left;
+      }
+      
+  footer{
+    padding: 10px 10px 0px 15px;
+  }
+  .nam h4{
+    margin-top: 20px;
+  }
+  .shey,.sat {
+    margin-top: 30px;
+  }
+  .tee h5{
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  .sat{
+    padding: 0px 0px 0px 0px;
+  }
+  .vid{
+    flex-direction: column;
+    padding-bottom: 30px;
+  }
+  .icons{
+    font-size: 20px;
+    margin-top: 20px;
+    justify-content: space-between;
+  }
+  .ban {
+    padding-left: 0px;
+   }
+  
+  } 

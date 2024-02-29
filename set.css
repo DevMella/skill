@@ -1,0 +1,171 @@
+*{
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border -box;
+    font-family: 'Inconsolata', monospace;
+}
+.skeleton{
+    overflow-x: hidden;
+}
+.all{
+  width: 100%;
+}
+.sidebar{
+    background-color: white;
+    position: fixed;
+    width: 20%;
+    height: 100vh;
+    box-shadow: #63636333 0px 1px 4px 0px;
+}
+.pap{
+    width: 200px;
+    height: 45px;
+    padding: 12px !important;
+    outline: none;
+    box-shadow: #63636333 0px 1px 4px 0px;
+}
+.phi a{
+    text-decoration: none;
+    color: black;
+}
+.pha{
+    padding: 50px 5px !important;
+}
+.phe i{
+    margin-top: 3px !important;
+}
+.phe2 i{
+    margin-top: 5px !important;
+}
+.body{
+    overflow-y: scroll;
+    width: 100%;
+    margin-left: 46px !important;
+}
+.body::-webkit-scrollbar{
+    display: none;
+}
+.pat{
+    position: fixed;
+    width: 80%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    box-shadow: #63636333 0px 1px 4px 0px;
+}
+.icons{
+    background-color: #add8e6;
+} 
+nav{
+height: 70px;
+background-color: #e4ecf280;
+backdrop-filter: blur(20px);
+}
+.main-body{
+padding: 100px 80px 10px 30px !important;
+max-width:100%;
+}
+.ican h3{
+    font-family: 'Inconsolata', monospace;
+    font-size: 30px;
+    margin-bottom: 130px !important;
+}
+.cir{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.notification-icon {
+    position: relative;
+    cursor: pointer;
+    margin-top: -30px !important;
+    margin-right: 20px !important;
+}
+.notification-icon i{
+    font-size: 22px;
+}
+.notification-dot {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+    display: none;
+}
+.ate {
+    margin-right: 70px !important;
+    margin-top: -0px !important;    
+}
+.shad{
+    box-shadow: #63636333 0px 1px 4px 0px;
+}
+.main-body .accBal p{
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+} 
+.main-body .action h6{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    background-color: #db5967;
+} 
+.ican img{
+    height: 15vh;
+    margin-bottom: 170px;
+    margin-left: -20px;
+}
+.cir{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.ican a{
+    text-decoration: none;
+    color: black;
+}
+.lead h3{
+    color: #db5967;
+}
+form input{
+    width: 100%;
+    height: 50px;
+    border: 2px solid #808080;
+}
+
+.don{
+    font-size: 160px; 
+}
+.icons a{
+    color: black;
+}
+@media (max-width:720px) {
+    .body{
+        margin-left: 0px !important;
+    }
+    .you{
+        flex-direction: column;
+    }
+    .main-body{
+        padding: 100px 20px 10px 20px !important;
+        width:100%;
+    }
+    .pat{
+        position: fixed;
+        width: 378px;
+        height: 60px;
+        background-color: white;
+    }
+    .notification-icon {
+        margin-right: 40px !important;
+    }
+}
